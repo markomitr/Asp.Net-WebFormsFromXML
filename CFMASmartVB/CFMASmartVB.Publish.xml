@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<publishData>
+  <publishProfile publishUrl="\\serverib\wwwroot\TestCFMASmart\" deleteExistingFiles="False" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="ServerIb-wwwroot" publishMethod="FileSystem" replaceMatchingFiles="True" userName="" savePWD="False" userPWD="" SelectedForPublish="False">
+    <file relUrl="XML/sp_MesecIzvReal.xml" publishTime="10/16/2012 16:35:07" />
+    <file relUrl="Test.aspx" publishTime="10/12/2012 11:52:42" />
+    <file relUrl="Scripts/Proverki.js" publishTime="10/09/2012 13:50:07" />
+    <file relUrl="Funkcii.asmx" publishTime="10/05/2012 15:08:19" />
+    <file relUrl="Scripts/json2.js" publishTime="09/25/2012 12:38:55" />
+    <file relUrl="Scripts/Glavna.js" publishTime="10/12/2012 11:35:57" />
+    <file relUrl="KorisnickKontroli/DatumIzbor.ascx" publishTime="10/09/2012 12:31:56" />
+    <file relUrl="bin/CFMASmartVB.dll" publishTime="10/25/2012 08:44:22" />
+    <file relUrl="Scripts/json.js" publishTime="09/25/2012 12:38:55" />
+    <file relUrl="bin/CFMASmartVB.pdb" publishTime="10/25/2012 08:44:22" />
+    <file relUrl="Sliki/StrelkaNazad.png" publishTime="10/12/2012 11:59:48" />
+    <file relUrl="KorisnickKontroli/NasCheckBoxUC.ascx" publishTime="10/03/2012 15:50:51" />
+    <file relUrl="Stilovi/Glaven.css" publishTime="10/25/2012 09:34:03" />
+    <file relUrl="Scripts/css3-mediaqueries.js" publishTime="09/25/2012 12:38:55" />
+    <file relUrl="KorisnickKontroli/NasRadioButtonUC.ascx" publishTime="09/28/2012 14:27:40" />
+    <file relUrl="XML/Meni.xml" publishTime="10/12/2012 12:48:53" />
+    <file relUrl="Sliki/CocaCola.jpg" publishTime="09/25/2012 12:38:57" />
+    <file relUrl="Scripts/Klasi.js" publishTime="09/25/2012 12:38:55" />
+    <file relUrl="XML/KatArt_TestXML.xml" publishTime="10/16/2012 16:35:24" />
+    <file relUrl="bin/CFMASmartVB.xml" publishTime="10/25/2012 08:44:22" />
+    <file relUrl="KatArt.aspx" publishTime="10/17/2012 12:40:49" />
+    <file relUrl="XML/TopLista.xml" publishTime="10/18/2012 16:05:03" />
+    <file relUrl="Sliki/Logo.jpg" publishTime="09/25/2012 12:38:57" />
+    <file relUrl="Login.aspx" publishTime="10/15/2012 11:14:04" />
+    <file relUrl="Web.config" publishTime="10/19/2012 12:36:19" />
+    <file relUrl="MesecIzvReal.aspx" publishTime="10/10/2012 11:51:17" />
+    <file relUrl="Izvestaj.aspx" publishTime="10/01/2012 16:20:39" />
+    <file relUrl="Sliki/Lout.png" publishTime="10/15/2012 12:39:02" />
+    <file relUrl="Scripts/InicNas.js" publishTime="10/17/2012 12:40:07" />
+    <file relUrl="bin/CFMASmartVB.XmlSerializers.dll" publishTime="10/25/2012 08:44:23" />
+    <file relUrl="Meni.aspx" publishTime="10/12/2012 12:02:34" />
+  </publishProfile>
+  <publishProfile publishUrl="C:\Users\TrajcheIB\Desktop\SmartVitam" deleteExistingFiles="False" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="MojDesktop" publishMethod="FileSystem" replaceMatchingFiles="True" userName="" savePWD="False" userPWD="" SelectedForPublish="True">
+    <file relUrl="XML/sp_MesecIzvReal.xml" publishTime="10/16/2013 12:06:01" />
+    <file relUrl="AnalProfaktNarac.aspx" publishTime="10/16/2013 12:06:01" />
+    <file relUrl="XML/KatArt_TestXML.xml" publishTime="10/02/2013 13:16:55" />
+    <file relUrl="Test.aspx" publishTime="09/13/2013 13:53:58" />
+    <file relUrl="XML/sp_AnalProfaktNarac.xml" publishTime="10/16/2013 12:06:01" />
+    <file relUrl="DnevenIzvestajKasa.aspx" publishTime="09/13/2013 13:53:59" />
+    <file relUrl="Scripts/Proverki.js" publishTime="09/13/2013 13:54:00" />
+    <file relUrl="Web.config" publishTime="10/16/2013 12:07:36" />
+    <file relUrl="Scripts/json2.js" publishTime="09/13/2013 13:54:00" />
+    <file relUrl="Scripts/Glavna.js" publishTime="09/13/2013 13:54:00" />
+    <file relUrl="KorisnickKontroli/DatumIzbor.ascx" publishTime="09/13/2013 13:54:03" />
+    <file relUrl="bin/CFMASmartVB.dll" publishTime="10/16/2013 12:07:34" />
+    <file relUrl="bin/CFMASmartVB.pdb" publishTime="10/16/2013 12:07:34" />
+    <file relUrl="Scripts/json.js" publishTime="09/13/2013 13:54:00" />
+    <file relUrl="Sliki/favicon.ico" publishTime="09/13/2013 13:53:59" />
+    <file relUrl="Funkcii.asmx" publishTime="09/13/2013 13:54:00" />
+    <file relUrl="Sliki/MeniIcon.png" publishTime="09/13/2013 13:53:59" />
+    <file relUrl="KorisnickKontroli/NasCheckBoxUC.ascx" publishTime="09/13/2013 13:54:03" />
+    <file relUrl="XML/sp_KartKupDob.xml" publishTime="10/16/2013 12:06:01" />
+    <file relUrl="Stilovi/Glaven.css" publishTime="09/13/2013 13:54:00" />
+    <file relUrl="Scripts/css3-mediaqueries.js" publishTime="09/13/2013 13:54:00" />
+    <file relUrl="KorisnickKontroli/NasRadioButtonUC.ascx" publishTime="09/13/2013 13:54:03" />
+    <file relUrl="Sliki/StrelkaGrupa.png" publishTime="09/13/2013 13:53:59" />
+    <file relUrl="Sliki/CocaCola.jpg" publishTime="09/13/2013 13:53:59" />
+    <file relUrl="Scripts/Klasi.js" publishTime="09/13/2013 13:54:00" />
+    <file relUrl="XML/Meni.xml" publishTime="10/16/2013 12:06:01" />
+    <file relUrl="bin/CFMASmartVB.xml" publishTime="10/16/2013 12:07:34" />
+    <file relUrl="KatArt.aspx" publishTime="09/13/2013 13:53:58" />
+    <file relUrl="XML/rk_Izvestaj_Dneven.xml" publishTime="09/13/2013 13:53:58" />
+    <file relUrl="XML/TopLista.xml" publishTime="09/13/2013 13:53:58" />
+    <file relUrl="Sliki/Logo.jpg" publishTime="09/13/2013 13:53:59" />
+    <file relUrl="KartKupDob.aspx" publishTime="10/16/2013 12:06:01" />
+    <file relUrl="Login.aspx" publishTime="09/13/2013 13:54:00" />
+    <file relUrl="Scripts/Poraki.js" publishTime="09/13/2013 13:54:00" />
+    <file relUrl="MesecIzvReal.aspx" publishTime="09/13/2013 13:54:00" />
+    <file relUrl="Izvestaj.aspx" publishTime="09/13/2013 13:54:00" />
+    <file relUrl="Sliki/Lout.png" publishTime="09/13/2013 13:53:59" />
+    <file relUrl="Sliki/StrelkaNazad.png" publishTime="09/13/2013 13:53:59" />
+    <file relUrl="Scripts/InicNas.js" publishTime="10/02/2013 13:13:07" />
+    <file relUrl="Meni.aspx" publishTime="09/13/2013 13:53:58" />
+  </publishProfile>
+</publishData>

@@ -1,0 +1,39 @@
+<Kontroli>
+<Maska Naslov="Analitika na profakturi i nara~ki"/>
+
+  <Kontrola SorsID="OrgEd" Param1="" TipKontrola="Lista"  RedBr="1" Grupa="1" NaslovGrupa="Filtri" Ime="Organizaciona Edinica" Opis="" Prikazi="D" MozePrazno="D" PrikazVrednost="D" Font="" FontSize="" Visina="" Sirina="" Boja="" />
+
+  <Kontrola SorsID="GrOrg" Param1="" TipKontrola="Lista"  RedBr="1" Grupa="1" NaslovGrupa="" Ime="Grupi Org.Ed." Opis="" Prikazi="D" MozePrazno="D" PrikazVrednost="D" Font="" FontSize="" Visina="" Sirina="" Boja="" />
+
+  <Kontrola SorsID="DatumOd" Param1="" TipKontrola="Datum" RedBr="1" Grupa="2" NaslovGrupa="Datumi" Ime="DatumOd" Opis="" Prikazi="D"  Font="" FontSize="" Visina="" Sirina="" Boja="" />
+
+<Kontrola SorsID="DatumDo" Param1="" TipKontrola="Datum" RedBr="1" Grupa="2" NaslovGrupa="" Ime="DatumDo" Opis="" Prikazi="D"  Font="" FontSize="" Visina="" Sirina="" Boja="" />
+
+<Kontrola SorsID="SiteDat" Param1="" TipKontrola="CHECKBOX" RedBr="1" Grupa="2" NaslovGrupa=""  Ime="Site Datumi" Opis="" Prikazi="D"  Font="" FontSize="" Visina="" Sirina="" Boja="" />
+
+
+  <Kontrola SorsID="DatumOd_Dosp" Param1="" TipKontrola="Datum" RedBr="1" Grupa="3" NaslovGrupa="Dospevawe" Ime="DatumOd" Opis="" Prikazi="D"  Font="" FontSize="" Visina="" Sirina="" Boja="" />
+
+  <Kontrola SorsID="DatumDo_Dosp" Param1="" TipKontrola="Datum" RedBr="1" Grupa="3" NaslovGrupa="" Ime="DatumDo" Opis="" Prikazi="D"  Font="" FontSize="" Visina="" Sirina="" Boja="" />
+
+  <Kontrola SorsID="SiteDat_Dosp" Param1="" TipKontrola="CHECKBOX" RedBr="1" Grupa="3" NaslovGrupa=""  Ime="Site Datumi" Opis="" Prikazi="D"  Font="" FontSize="" Visina="" Sirina="" Boja="" />
+
+
+  <Kontrola SorsID="DatumOd_Isp" Param1="" TipKontrola="Datum" RedBr="1" Grupa="4" NaslovGrupa="Isporaka" Ime="DatumOd" Opis="" Prikazi="N"  Font="" FontSize="" Visina="" Sirina="" Boja="" />
+
+  <Kontrola SorsID="DatumDo_Isp" Param1="" TipKontrola="Datum" RedBr="1" Grupa="4" NaslovGrupa="" Ime="DatumDo" Opis="" Prikazi="D"  Font="" FontSize="" Visina="" Sirina="" Boja="" />
+
+  <Kontrola SorsID="SiteDat_Isp" Param1="" TipKontrola="CHECKBOX" RedBr="1" Grupa="4" NaslovGrupa=""  Ime="Site Datumi" Opis="" Prikazi="D"  Font="" FontSize="" Visina="" Sirina="" Boja="" />
+
+
+  <Kontrola SorsID="GrPat" Param1="" TipKontrola="Lista"  RedBr="1" Grupa="5" NaslovGrupa="Grupa na komerc." Ime="Komercijalisti" Opis="" Prikazi="D" MozePrazno="N" PrikazVrednost="D" Font="" FontSize="" Visina="" Sirina="" Boja="" />
+
+
+<Kontrola SorsID="OptSite" Param1="" TipKontrola="RADIOBUTTON" RedBr="1" Grupa="6" NaslovGrupa="Prika`i" Ime="Site" Opis="" Prikazi="D"  Font="" FontSize="" Visina="" Sirina="" Boja="" />
+<Kontrola SorsID="OptReal" Param1="" TipKontrola="RADIOBUTTON" RedBr="2" Grupa="6" NaslovGrupa="" Ime="Realizirani" Opis="" Prikazi="D"  Font="" FontSize="" Visina="" Sirina="" Boja="" />
+<Kontrola SorsID="OptNereal" Param1="" TipKontrola="RADIOBUTTON" RedBr="3" Grupa="6" NaslovGrupa="" Ime="Nerealizirani" Opis="" Prikazi="D"  Font="" FontSize="" Visina="" Sirina="" Boja="" />
+<Kontrola SorsID="OptPotpNereal" Param1="" TipKontrola="RADIOBUTTON" RedBr="4" Grupa="6" NaslovGrupa="" Ime="Potpolno nerealizirani" Opis="" Prikazi="D"  Font="" FontSize="" Visina="" Sirina="" Boja="" />
+
+ <Kontrola SorsID="PoArt" Param1="" TipKontrola="CHECKBOX" RedBr="1" Grupa="7" NaslovGrupa="Dr. filtri"  Ime="Po Artikli" Opis="" Prikazi="D"  Font="" FontSize="" Visina="" Sirina="" Boja="" />
+
+</Kontroli>

@@ -1,0 +1,11 @@
+D:\Rabota\InfoBiro\Proekti\CFMASmart\CFMASmartVB\cfmasmartweb\CFMASmartVB\CFMASmartVB\bin\CFMASmartVB.dll
+D:\Rabota\InfoBiro\Proekti\CFMASmart\CFMASmartVB\cfmasmartweb\CFMASmartVB\CFMASmartVB\bin\CFMASmartVB.pdb
+D:\Rabota\InfoBiro\Proekti\CFMASmart\CFMASmartVB\cfmasmartweb\CFMASmartVB\CFMASmartVB\bin\CFMASmartVB.xml
+D:\Rabota\InfoBiro\Proekti\CFMASmart\CFMASmartVB\cfmasmartweb\CFMASmartVB\CFMASmartVB\obj\Debug\CFMASmartVB.Resources.resources
+D:\Rabota\InfoBiro\Proekti\CFMASmart\CFMASmartVB\cfmasmartweb\CFMASmartVB\CFMASmartVB\obj\Debug\CFMASmartVB.GlavnaMaska_KS.resources
+D:\Rabota\InfoBiro\Proekti\CFMASmart\CFMASmartVB\cfmasmartweb\CFMASmartVB\CFMASmartVB\obj\Debug\CFMASmartVB.GlavnaMaska_MK.resources
+D:\Rabota\InfoBiro\Proekti\CFMASmart\CFMASmartVB\cfmasmartweb\CFMASmartVB\CFMASmartVB\obj\Debug\CFMASmartVB.dll
+D:\Rabota\InfoBiro\Proekti\CFMASmart\CFMASmartVB\cfmasmartweb\CFMASmartVB\CFMASmartVB\obj\Debug\CFMASmartVB.xml
+D:\Rabota\InfoBiro\Proekti\CFMASmart\CFMASmartVB\cfmasmartweb\CFMASmartVB\CFMASmartVB\obj\Debug\CFMASmartVB.pdb
+D:\Rabota\InfoBiro\Proekti\CFMASmart\CFMASmartVB\cfmasmartweb\CFMASmartVB\CFMASmartVB\obj\Debug\CFMASmartVB.vbproj.GenerateResource.Cache
+D:\Rabota\InfoBiro\Proekti\CFMASmart\CFMASmartVB\cfmasmartweb\CFMASmartVB\CFMASmartVB\bin\CFMASmartVB.dll.config

@@ -1,0 +1,7 @@
+<Meni>
+<MeniRed Naslov="Kartica na artikal" ImeFile="KatArt.aspx" Grupa="" GrupaIme="" />
+<MeniRed Naslov="Mese~en izve{taj za realizacija" ImeFile="MesecIzvReal.aspx" Grupa="" GrupaIme=""/>
+<MeniRed Naslov="Dneven izvestaj - KASA" ImeFile="DnevenIzvestajKasa.aspx" Grupa="" GrupaIme=""/>
+<MeniRed Naslov="Kartica kupuva~i/dobavuva~i" ImeFile="KartKupDob.aspx" Grupa="" GrupaIme=""/>
+<MeniRed Naslov="Analitika na profakturi i nara~ki" ImeFile="AnalProfaktNarac.aspx" Grupa="" GrupaIme=""/>
+</Meni>

@@ -1,0 +1,251 @@
+﻿.aspNetHidden
+{
+    display:none;
+    border:none;
+}
+body
+{
+    width:100%;
+}
+div
+{
+    -moz-border-radius: 10px;
+     border-radius: 10px;
+}
+/*---------------------------BOI na ELEMENTI--------------------------------------*/
+body{background-color:#A8A8A8;} /* DEDEDE Boja na pozadina*/
+#NaslovGrupa{background-color:#F26100;}
+.Meni{background-color:#F26100;}
+.Meni:hover{background-color:#F26100;}
+#PrikazPodatoci{ background-color:White;}
+#NaslovMaska{background-color:#FAE873;}
+input[type="text"], input[type="password"],select{ background-color:#FFF3A3; }
+
+
+select{ border:2px Solid Gray; }
+#Content{border:3px Solid Gray ;}
+#RadioKopceDiv{border:1px Solid Gray;}
+#PrikazPodatoci{border-bottom:2px dashed Gray;}
+#PrikazPodatoci:hover{border-bottom:2px inset Gray;}
+#NaslovGrupa{border:1px Solid Gray;}
+#Kontrola{border-bottom:2px Solid Green;}
+.Meni{border:2px Solid Gray !important;}
+select,#Content,#RadioKopceDiv,#PrikazPodatoci,#PrikazPodatoci:hover,#NaslovGrupa,#Kontrola,.Meni
+{ border-color:Black !important;}
+/*------------KRAJ BOI -----------------------------*/
+/* BOI na FONT */
+
+#Content{color:Black;}
+#PrikazPodatoci{color:Black;}
+
+/*-------KRAJ BOI FONT  ------------------*/
+
+input[type="text"], input[type="password"]{ text-align:left; vertical-align:middle; }
+#Content{ padding:0 5 5 5;}
+#DatumPicker table { table-layout: fixed; }
+#DatumPicker table td { width: 30%; padding-right:5px; text-align:center; vertical-align:middle;}
+.datum{ text-align:center !important; vertical-align:middle; }
+#RadioKopceDiv{cursor:pointer;}
+#NaslovMaska{text-align:center;vertical-align:middle;font-size:1.2em;padding-left:40px;}
+#NaslovMaska span{text-decoration:underline;}
+#PrikazPodatoci{text-align:left;overflow:hidden;}
+#PrikazPodatoci:hover{font-weight:bold; cursor:pointer;}
+#Grupa{margin-top:5px;margin-bottom:5px;}
+#NaslovGrupa{cursor:pointer; text-align:center; background-image:url('../Sliki/StrelkaGrupa.png'); background-repeat:no-repeat; background-position:left center;}
+#Kontrola{margin-bottom:3px;padding-bottom:3px; padding-left:5px;}
+.imeKontrola{text-decoration:underline;}
+.Meni{text-align:center !important;cursor:pointer;margin-bottom:2px; margin-top:2px; background-image:url('../Sliki/MeniIcon.png'); background-repeat:no-repeat; background-position:1% center;}
+/*---------------------KOPCE-----------------------------------------------*/
+.css3button {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #032a46;
+
+	background: -moz-linear-gradient(
+		top,
+		#ffffff 0%,
+		#faba5a 10%,
+		#fab444 28%,
+		#fa5800 95%,
+		#204057);
+	background: -webkit-gradient(
+		linear, left top, left bottom, 
+		from(#ffffff),
+		color-stop(0.10, #faba5a),
+		color-stop(0.28, #fab444),
+		color-stop(0.95, #fa5800),
+		to(#204057));
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
+	border: 4px solid #ffffff;
+	-moz-box-shadow:
+		0px 1px 3px rgba(000,000,000,0.6),
+		inset 0px 0px 3px rgba(093,118,148,1);
+	-webkit-box-shadow:
+		0px 1px 3px rgba(000,000,000,0.6),
+		inset 0px 0px 3px rgba(093,118,148,1);
+	box-shadow:
+		0px 1px 3px rgba(000,000,000,0.6),
+		inset 0px 0px 3px rgba(093,118,148,1);
+	text-shadow:
+		0px -1px 1px rgba(250,250,250,0),
+		0px 1px 1px rgba(255,255,255,0);
+}
+
+
+
+
+/*-----------------------------------------------------------------------------*/
+/*Responsive WEB*/
+select
+{
+    width:95%;
+    height:40px;
+    margin:auto;
+    font-size:1.3em;
+}
+
+/*Responsive WEB*/
+input[type="text"], input[type="password"]
+{
+    width:95%;
+    height:40px;
+    font-size:1.3em;
+
+}
+#LogoHeader
+{
+        margin:auto;
+        width:90%;
+        font-size:1.3em;
+        margin-bottom:3px;
+}
+#LogoHeader img
+{
+    width:280px;
+    height:50px;
+}
+/*Responsive WEB*/
+#Content
+{
+
+        margin:auto;
+        width:90%;
+        font-size:1.3em;
+}
+
+
+/*Responsive WEB*/
+#btnPrikazi
+{
+    width:99%;
+    height:40px;
+    margin:auto;
+    font-size:1.2em;
+    margin-top:5px;
+    margin-bottom:3px;
+    padding-bottom:5px;
+    cursor:pointer;
+    text-align:center;
+    vertical-align:middle;
+}
+
+/*Responsive WEB*/
+#PrikazPodatoci
+{
+    width:95%;
+    font-size:1.3em;
+}
+    #VrednostPrikaz
+    {
+        font-size:0.7em;
+    }
+    
+
+/* Responsive WEB */
+#NaslovGrupa
+{
+    height:30px;
+    width:100%;
+    font-size:1.2em;
+}
+
+/* Responsive WEB */
+.Meni
+{
+    height:50px;
+    font-size:1.2em;
+}
+#LinkMeni
+{
+    position:absolute;
+
+}
+#LoginDiv
+{
+    width:250px;
+    margin:auto;
+    text-align:center;
+}
+@media screen and (max-width: 480px)
+{
+    #LoginDiv
+    {
+        width:200px;
+    }
+    input[type="text"],input[type="password"]
+    {
+        height:30px;
+    }
+    
+    #Content
+    {
+        font-size:1em;
+    }
+    #PrikazPodatoci
+    {
+        font-size:1.2em;
+        height:40px;
+        overflow:hidden;
+    }
+    #NaslovGrupa
+    {
+        height:28px;
+    }
+    .Meni
+    {
+        height:35px;
+    }
+}
+
+@media screen and (max-width: 320px) 
+{
+    #Content
+    {
+        font-size:1em;
+    }
+    #PrikazPodatoci
+    {
+        font-size:1em;
+        height:40px;
+        overflow:hidden;
+    }
+    #NaslovGrupa
+    {
+        height:28px;
+    }
+    .Meni
+    {
+        height:35px;
+    }
+}
+
+@media screen and (min-width: 1280px)
+{
+    select
+    {
+        height:70px;
+        font-size:1.5em;
+    }
+}

@@ -1,0 +1,29 @@
+﻿<Kontroli>
+
+<Maska Naslov="Top lista na proda@ba"/>
+
+<Kontrola SorsID="OrgEd" Param1="" TipKontrola="Lista"  RedBr="1" Grupa="1" NaslovGrupa="" Ime="Organizaciona Edinica" Opis="" Prikazi="D" MozePrazno="D" PrikazVrednost="D" Font="" FontSize="" Visina="" Sirina="" Boja="" />
+
+<Kontrola SorsID="GrOrg" Param1="" TipKontrola="Lista"  RedBr="1" Grupa="1" NaslovGrupa="" Ime="Grupi Org.Ed." Opis="" Prikazi="D" MozePrazno="D" PrikazVrednost="D" Font="" FontSize="" Visina="" Sirina="" Boja="" />
+
+<Kontrola SorsID="DatumOd" Param1="" TipKontrola="Datum" RedBr="1" Grupa="1" NaslovGrupa="Datumi" Ime="DatumOd" Opis="" Prikazi="D"  Font="" FontSize="" Visina="" Sirina="" Boja="" />
+
+<Kontrola SorsID="DatumDo" Param1="" TipKontrola="Datum" RedBr="1" Grupa="1" NaslovGrupa="" Ime="DatumDo" Opis="" Prikazi="D"  Font="" FontSize="" Visina="" Sirina="" Boja="" />
+
+<Kontrola SorsID="Sifra_Kup_Od" Param1="" TipKontrola="ZivoTekstPole" RedBr="1" Grupa="1" NaslovGrupa="" Ime="KomintentOD" Opis="Vnesete poveke od tri(3) karakteri!" Prikazi="D"  Font="" FontSize="" Visina="" Sirina="" Boja="" />
+
+<Kontrola SorsID="Sifra_Kup_Do" Param1="" TipKontrola="ZivoTekstPole" RedBr="1" Grupa="1" NaslovGrupa="" Ime="KomintentDO" Opis="Vnesete poveke od tri(3) karakteri!" Prikazi="D"  Font="" FontSize="" Visina="" Sirina="" Boja="" /> 
+
+<Kontrola SorsID="Sifra_Art_Od" Param1="" TipKontrola="ZivoTekstPole" RedBr="1" Grupa="1" NaslovGrupa="" Ime="ArtikalOD" Opis="Vnesete poveke od tri(3) karakteri!" Prikazi="N"  Font="" FontSize="" Visina="" Sirina="" Boja="" />
+
+<Kontrola SorsID="Sifra_Art_Do" Param1="" TipKontrola="ZivoTekstPole" RedBr="1" Grupa="1" NaslovGrupa="" Ime="ArtikalDo" Opis="Vnesete poveke od tri(3) karakteri!" Prikazi="N"  Font="" FontSize="" Visina="" Sirina="" Boja="" />
+
+<Kontrola SorsID="KolkuZapis" Param1="" TipKontrola="TekstPole" RedBr="1" Grupa="1" NaslovGrupa="" Ime="Kolku zapisi" Opis="" Prikazi="D"  Font="" FontSize="" Visina="" Sirina="" Boja="" />
+
+<Kontrola SorsID="SoDDV" Param1="" TipKontrola="RADIOBUTTON" RedBr="1" Grupa="2" NaslovGrupa="Ceni" Ime="So danok" Opis="" Prikazi="D"  Font="" FontSize="" Visina="" Sirina="" Boja="" />
+
+<Kontrola SorsID="NetoBezDDV" Param1="" TipKontrola="RADIOBUTTON" RedBr="1" Grupa="2" NaslovGrupa="Ceni"  Ime="Neto bez ddv" Opis="" Prikazi="D"  Font="" FontSize="" Visina="" Sirina="" Boja="" />
+<Kontrola SorsID="NetoBezDDVpredRabat" Param1="" TipKontrola="RADIOBUTTON" RedBr="1" Grupa="2" NaslovGrupa="Ceni"  Ime="Neto bez DDV pred rabat" Opis="" Prikazi="D"  Font="" FontSize="" Visina="" Sirina="" Boja="" />
+
+
+</Kontroli>

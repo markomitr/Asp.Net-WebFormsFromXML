@@ -1,0 +1,566 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="Ver">
+        <s:complexType />
+      </s:element>
+      <s:element name="VerResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="VerResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPDF">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Pateka" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Poraka" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPDFResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetPDFResult" type="s:base64Binary" />
+            <s:element minOccurs="0" maxOccurs="1" name="Poraka" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="PreglTarifi">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="PDFPath" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Poraka" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="PreglTarifiResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="PreglTarifiResult" type="s:boolean" />
+            <s:element minOccurs="0" maxOccurs="1" name="PDFPath" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Poraka" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="KarticaArtikal">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="reportName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="PDFPath" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="SifArtikal" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="SifOrgEd" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="SoDDV" type="tns:DaNe" />
+            <s:element minOccurs="1" maxOccurs="1" name="SoRazlCeni" type="tns:DaNe" />
+            <s:element minOccurs="0" maxOccurs="1" name="DatDokOd" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="DatDokDo" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="DatNalOd" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="DatNalDo" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="Prodazna" type="tns:DaNe" />
+            <s:element minOccurs="1" maxOccurs="1" name="RastOpagj" type="tns:RastiOpagja" />
+            <s:element minOccurs="0" maxOccurs="1" name="KoiOE" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Komint" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="PoMagCeni" type="tns:DaNe" />
+            <s:element minOccurs="0" maxOccurs="1" name="wKomerc" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="PrikKontrSer" type="tns:DaNe" />
+            <s:element minOccurs="0" maxOccurs="1" name="KontrSer" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="PrikVredn" type="tns:DaNe" />
+            <s:element minOccurs="1" maxOccurs="1" name="PrikZbFakt" type="tns:DaNe" />
+            <s:element minOccurs="1" maxOccurs="1" name="PrikAltKolic" type="tns:DaNe" />
+            <s:element minOccurs="1" maxOccurs="1" name="PrikPren" type="tns:DaNe" />
+            <s:element minOccurs="0" maxOccurs="1" name="Poraka" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:simpleType name="DaNe">
+        <s:restriction base="s:string">
+          <s:enumeration value="Da" />
+          <s:enumeration value="Ne" />
+          <s:enumeration value="Nisto" />
+        </s:restriction>
+      </s:simpleType>
+      <s:simpleType name="RastiOpagja">
+        <s:restriction base="s:string">
+          <s:enumeration value="Rastecki" />
+          <s:enumeration value="Opagjacki" />
+        </s:restriction>
+      </s:simpleType>
+      <s:element name="KarticaArtikalResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="KarticaArtikalResult" type="s:boolean" />
+            <s:element minOccurs="0" maxOccurs="1" name="PDFPath" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Poraka" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="MesecIzvReal">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="PDFPath" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="DatOd" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="DatDo" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="GrPat" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="KojIzv" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="GrpBy" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Kurs_EUR" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Dev" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Pat" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="TipDokProd" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="PrikStavki" type="tns:DaNe" />
+            <s:element minOccurs="1" maxOccurs="1" name="PrikVredn" type="tns:DaNe" />
+            <s:element minOccurs="1" maxOccurs="1" name="PoUpl" type="tns:DaNe" />
+            <s:element minOccurs="0" maxOccurs="1" name="Poraka" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="MesecIzvRealResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="MesecIzvRealResult" type="s:boolean" />
+            <s:element minOccurs="0" maxOccurs="1" name="PDFPath" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Poraka" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AnalNaracki">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="PDFPath" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="TipNar" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="OrgEd" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="BrNarOd" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="BrNarDo" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="DatNarOd" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="DatNarDo" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Komint" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="VI" type="tns:VlezIzlez" />
+            <s:element minOccurs="0" maxOccurs="1" name="KoiOE" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="KojaGOrgEd" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="KojAnal" type="tns:KakovReport" />
+            <s:element minOccurs="1" maxOccurs="1" name="Danok" type="tns:DaNe" />
+            <s:element minOccurs="0" maxOccurs="1" name="Pat" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Lokacija" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="wSostojba" type="tns:Sostojba" />
+            <s:element minOccurs="0" maxOccurs="1" name="ArtOd" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ArtDo" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Gr" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Podg" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="MU" type="tns:MaterUsl" />
+            <s:element minOccurs="1" maxOccurs="1" name="KojRep" type="tns:KakovReport" />
+            <s:element minOccurs="0" maxOccurs="1" name="KoiRegioni" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="KoiGradovi" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="PodrPoReg" type="tns:DaNe" />
+            <s:element minOccurs="0" maxOccurs="1" name="SifObj" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="PrikPoEdMera" type="tns:DaNe" />
+            <s:element minOccurs="1" maxOccurs="1" name="Podr" type="tns:Podreduvanje" />
+            <s:element minOccurs="0" maxOccurs="1" name="DatDospOd" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="DatDospDo" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="GrPat" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Drugo1" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Drugo2" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Drugo3" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Drugo4" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Drugo5" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Drugo6" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Drugo7" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Kto" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="DatVreVnesOd" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="DatVreVnesDo" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="PoLok" type="tns:DaNe" />
+            <s:element minOccurs="1" maxOccurs="1" name="LimitPoDiv" type="tns:DaNe" />
+            <s:element minOccurs="0" maxOccurs="1" name="KojLimit" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="wSostIspor" type="tns:Sostojba" />
+            <s:element minOccurs="0" maxOccurs="1" name="DatIspOd" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="DatIspDo" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="PrikTekZal" type="tns:DaNe" />
+            <s:element minOccurs="0" maxOccurs="1" name="GrOrgTekZal" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="GrpBy" type="tns:GrupirajPo" />
+            <s:element minOccurs="0" maxOccurs="1" name="Poraka" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:simpleType name="VlezIzlez">
+        <s:restriction base="s:string">
+          <s:enumeration value="Vlez" />
+          <s:enumeration value="Izlez" />
+          <s:enumeration value="Site" />
+          <s:enumeration value="Invest" />
+        </s:restriction>
+      </s:simpleType>
+      <s:simpleType name="KakovReport">
+        <s:restriction base="s:string">
+          <s:enumeration value="Detalen" />
+          <s:enumeration value="PoDen" />
+          <s:enumeration value="PoMesec" />
+          <s:enumeration value="PoKomintent" />
+          <s:enumeration value="PoGrad" />
+          <s:enumeration value="PoRegion" />
+          <s:enumeration value="PoDenIPoKomintent" />
+          <s:enumeration value="PoArtikl" />
+          <s:enumeration value="Zbiren" />
+          <s:enumeration value="ZbirPoDatum" />
+          <s:enumeration value="ZbirPoNalozi" />
+          <s:enumeration value="Standarden" />
+          <s:enumeration value="Skraten" />
+          <s:enumeration value="DinamickiGrupiran" />
+          <s:enumeration value="Dinamicki" />
+          <s:enumeration value="PoDokument" />
+          <s:enumeration value="Kontrolen" />
+          <s:enumeration value="PoNalog" />
+          <s:enumeration value="Devizen" />
+          <s:enumeration value="PoFakturi" />
+          <s:enumeration value="PoUplati" />
+          <s:enumeration value="PoOrgEd" />
+          <s:enumeration value="PoArtArt" />
+          <s:enumeration value="PoPodelba1" />
+          <s:enumeration value="PoPodelba2" />
+          <s:enumeration value="PoPodelba3" />
+          <s:enumeration value="PoPodelba4" />
+          <s:enumeration value="PoPodelba5" />
+          <s:enumeration value="PoPodelba6" />
+          <s:enumeration value="PoPodelba7" />
+        </s:restriction>
+      </s:simpleType>
+      <s:simpleType name="Sostojba">
+        <s:restriction base="s:string">
+          <s:enumeration value="Site" />
+          <s:enumeration value="Realizirani" />
+          <s:enumeration value="Nerealizirani" />
+          <s:enumeration value="Pozitivni" />
+          <s:enumeration value="Negativni" />
+          <s:enumeration value="RazlOdNula" />
+          <s:enumeration value="CelosnoNerealizirani" />
+          <s:enumeration value="Isporacani" />
+          <s:enumeration value="NeIsporacani" />
+        </s:restriction>
+      </s:simpleType>
+      <s:simpleType name="MaterUsl">
+        <s:restriction base="s:string">
+          <s:enumeration value="Materijali" />
+          <s:enumeration value="Uslugi" />
+          <s:enumeration value="Site" />
+        </s:restriction>
+      </s:simpleType>
+      <s:simpleType name="Podreduvanje">
+        <s:restriction base="s:string">
+          <s:enumeration value="Nema" />
+          <s:enumeration value="PoSifra" />
+          <s:enumeration value="PoIme" />
+          <s:enumeration value="PoGrupa" />
+          <s:enumeration value="PoPodgr" />
+          <s:enumeration value="PoLokacija" />
+          <s:enumeration value="PoKomintent" />
+          <s:enumeration value="PoDatum" />
+          <s:enumeration value="PoGrad" />
+          <s:enumeration value="PoRegion" />
+          <s:enumeration value="PoKasa" />
+          <s:enumeration value="PoKonto" />
+          <s:enumeration value="PoDatNal" />
+          <s:enumeration value="PoDatDok" />
+          <s:enumeration value="PoPatnik" />
+          <s:enumeration value="PoPrevoznik" />
+          <s:enumeration value="PoSpremac" />
+          <s:enumeration value="PoBrFra" />
+          <s:enumeration value="PoBrFraGrp" />
+          <s:enumeration value="PoBroj" />
+        </s:restriction>
+      </s:simpleType>
+      <s:simpleType name="GrupirajPo">
+        <s:restriction base="s:string">
+          <s:enumeration value="PoArtkl" />
+          <s:enumeration value="PoImeArtikl" />
+          <s:enumeration value="PoDokument" />
+          <s:enumeration value="PoDatum" />
+          <s:enumeration value="PoKonto" />
+          <s:enumeration value="PoTarifa" />
+          <s:enumeration value="PoKomint" />
+          <s:enumeration value="PoKasa" />
+          <s:enumeration value="PoBrand" />
+          <s:enumeration value="PoNisto" />
+          <s:enumeration value="PoGrupa" />
+          <s:enumeration value="PoPodgrupa" />
+          <s:enumeration value="PoLokacija" />
+          <s:enumeration value="PoDivizii" />
+          <s:enumeration value="PoZBrend" />
+          <s:enumeration value="PoKomintStavr" />
+          <s:enumeration value="PoCarinskiBroj" />
+          <s:enumeration value="PoGradovi" />
+        </s:restriction>
+      </s:simpleType>
+      <s:element name="AnalNarackiResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="AnalNarackiResult" type="s:boolean" />
+            <s:element minOccurs="0" maxOccurs="1" name="PDFPath" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Poraka" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="KartIOS">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="PDFPath" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="SifKomint" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="SifOrgEd" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Konto" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="DaliIos" type="tns:DaNe" />
+            <s:element minOccurs="1" maxOccurs="1" name="KupDob" type="tns:KupuvacDobavuvac" />
+            <s:element minOccurs="0" maxOccurs="1" name="DatDokOd" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="DatDokDo" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="DatNalOd" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="DatNalDo" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="KakoZatv" type="tns:DaNe" />
+            <s:element minOccurs="0" maxOccurs="1" name="GSifOrgEd" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="PokojDat" type="tns:Podreduvanje" />
+            <s:element minOccurs="1" maxOccurs="1" name="PoKonta" type="tns:DaNe" />
+            <s:element minOccurs="0" maxOccurs="1" name="DatDospOd" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="DatDospDo" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="Prored" type="tns:DaNe" />
+            <s:element minOccurs="0" maxOccurs="1" name="ImeParBaza" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="PoFaktUpl" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Pat" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="TipNal" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Divizija" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="KoiPat" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="PoDivizii" type="tns:DaNe" />
+            <s:element minOccurs="1" maxOccurs="1" name="GrpPo" type="tns:GrupirajPo" />
+            <s:element minOccurs="1" maxOccurs="1" name="PrikPrebPrethProm" type="tns:DaNe" />
+            <s:element minOccurs="0" maxOccurs="1" name="IosNaDatum" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Poraka" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:simpleType name="KupuvacDobavuvac">
+        <s:restriction base="s:string">
+          <s:enumeration value="Kupuvac" />
+          <s:enumeration value="Dobavuvac" />
+          <s:enumeration value="IKupIDob" />
+        </s:restriction>
+      </s:simpleType>
+      <s:element name="KartIOSResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="KartIOSResult" type="s:boolean" />
+            <s:element minOccurs="0" maxOccurs="1" name="PDFPath" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Poraka" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="VerSoapIn">
+    <wsdl:part name="parameters" element="tns:Ver" />
+  </wsdl:message>
+  <wsdl:message name="VerSoapOut">
+    <wsdl:part name="parameters" element="tns:VerResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetPDFSoapIn">
+    <wsdl:part name="parameters" element="tns:GetPDF" />
+  </wsdl:message>
+  <wsdl:message name="GetPDFSoapOut">
+    <wsdl:part name="parameters" element="tns:GetPDFResponse" />
+  </wsdl:message>
+  <wsdl:message name="PreglTarifiSoapIn">
+    <wsdl:part name="parameters" element="tns:PreglTarifi" />
+  </wsdl:message>
+  <wsdl:message name="PreglTarifiSoapOut">
+    <wsdl:part name="parameters" element="tns:PreglTarifiResponse" />
+  </wsdl:message>
+  <wsdl:message name="KarticaArtikalSoapIn">
+    <wsdl:part name="parameters" element="tns:KarticaArtikal" />
+  </wsdl:message>
+  <wsdl:message name="KarticaArtikalSoapOut">
+    <wsdl:part name="parameters" element="tns:KarticaArtikalResponse" />
+  </wsdl:message>
+  <wsdl:message name="MesecIzvRealSoapIn">
+    <wsdl:part name="parameters" element="tns:MesecIzvReal" />
+  </wsdl:message>
+  <wsdl:message name="MesecIzvRealSoapOut">
+    <wsdl:part name="parameters" element="tns:MesecIzvRealResponse" />
+  </wsdl:message>
+  <wsdl:message name="AnalNarackiSoapIn">
+    <wsdl:part name="parameters" element="tns:AnalNaracki" />
+  </wsdl:message>
+  <wsdl:message name="AnalNarackiSoapOut">
+    <wsdl:part name="parameters" element="tns:AnalNarackiResponse" />
+  </wsdl:message>
+  <wsdl:message name="KartIOSSoapIn">
+    <wsdl:part name="parameters" element="tns:KartIOS" />
+  </wsdl:message>
+  <wsdl:message name="KartIOSSoapOut">
+    <wsdl:part name="parameters" element="tns:KartIOSResponse" />
+  </wsdl:message>
+  <wsdl:portType name="ServiceSoap">
+    <wsdl:operation name="Ver">
+      <wsdl:input message="tns:VerSoapIn" />
+      <wsdl:output message="tns:VerSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPDF">
+      <wsdl:input message="tns:GetPDFSoapIn" />
+      <wsdl:output message="tns:GetPDFSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="PreglTarifi">
+      <wsdl:input message="tns:PreglTarifiSoapIn" />
+      <wsdl:output message="tns:PreglTarifiSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="KarticaArtikal">
+      <wsdl:input message="tns:KarticaArtikalSoapIn" />
+      <wsdl:output message="tns:KarticaArtikalSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="MesecIzvReal">
+      <wsdl:input message="tns:MesecIzvRealSoapIn" />
+      <wsdl:output message="tns:MesecIzvRealSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="AnalNaracki">
+      <wsdl:input message="tns:AnalNarackiSoapIn" />
+      <wsdl:output message="tns:AnalNarackiSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="KartIOS">
+      <wsdl:input message="tns:KartIOSSoapIn" />
+      <wsdl:output message="tns:KartIOSSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="ServiceSoap" type="tns:ServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Ver">
+      <soap:operation soapAction="http://tempuri.org/Ver" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPDF">
+      <soap:operation soapAction="http://tempuri.org/GetPDF" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PreglTarifi">
+      <soap:operation soapAction="http://tempuri.org/PreglTarifi" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="KarticaArtikal">
+      <soap:operation soapAction="http://tempuri.org/KarticaArtikal" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MesecIzvReal">
+      <soap:operation soapAction="http://tempuri.org/MesecIzvReal" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AnalNaracki">
+      <soap:operation soapAction="http://tempuri.org/AnalNaracki" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="KartIOS">
+      <soap:operation soapAction="http://tempuri.org/KartIOS" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="ServiceSoap12" type="tns:ServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Ver">
+      <soap12:operation soapAction="http://tempuri.org/Ver" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPDF">
+      <soap12:operation soapAction="http://tempuri.org/GetPDF" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PreglTarifi">
+      <soap12:operation soapAction="http://tempuri.org/PreglTarifi" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="KarticaArtikal">
+      <soap12:operation soapAction="http://tempuri.org/KarticaArtikal" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MesecIzvReal">
+      <soap12:operation soapAction="http://tempuri.org/MesecIzvReal" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AnalNaracki">
+      <soap12:operation soapAction="http://tempuri.org/AnalNaracki" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="KartIOS">
+      <soap12:operation soapAction="http://tempuri.org/KartIOS" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Service">
+    <wsdl:port name="ServiceSoap" binding="tns:ServiceSoap">
+      <soap:address location="http://marko-pc/CFMASMART5/CFMASMART5.asmx" />
+    </wsdl:port>
+    <wsdl:port name="ServiceSoap12" binding="tns:ServiceSoap12">
+      <soap12:address location="http://marko-pc/CFMASMART5/CFMASMART5.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

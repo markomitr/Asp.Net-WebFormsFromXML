@@ -1,0 +1,799 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+CFMASmartVB
+</name>
+</assembly>
+<members>
+<member name="M:CFMASmartVB.TestServiceObicen.Service.#ctor">
+	<remarks/>
+</member><member name="E:CFMASmartVB.TestServiceObicen.Service.VerCompleted">
+	<remarks/>
+</member><member name="E:CFMASmartVB.TestServiceObicen.Service.GetPDFCompleted">
+	<remarks/>
+</member><member name="E:CFMASmartVB.TestServiceObicen.Service.PreglTarifiCompleted">
+	<remarks/>
+</member><member name="E:CFMASmartVB.TestServiceObicen.Service.KarticaArtikalCompleted">
+	<remarks/>
+</member><member name="E:CFMASmartVB.TestServiceObicen.Service.MesecIzvRealCompleted">
+	<remarks/>
+</member><member name="E:CFMASmartVB.TestServiceObicen.Service.AnalNarackiCompleted">
+	<remarks/>
+</member><member name="E:CFMASmartVB.TestServiceObicen.Service.KartIOSCompleted">
+	<remarks/>
+</member><member name="M:CFMASmartVB.TestServiceObicen.Service.Ver">
+	<remarks/>
+</member><member name="M:CFMASmartVB.TestServiceObicen.Service.VerAsync">
+	<remarks/>
+</member><member name="M:CFMASmartVB.TestServiceObicen.Service.VerAsync(System.Object)">
+	<remarks/>
+</member><member name="M:CFMASmartVB.TestServiceObicen.Service.GetPDF(System.String,System.String@)">
+	<remarks/>
+</member><member name="M:CFMASmartVB.TestServiceObicen.Service.GetPDFAsync(System.String,System.String)">
+	<remarks/>
+</member><member name="M:CFMASmartVB.TestServiceObicen.Service.GetPDFAsync(System.String,System.String,System.Object)">
+	<remarks/>
+</member><member name="M:CFMASmartVB.TestServiceObicen.Service.PreglTarifi(System.String@,System.String@)">
+	<remarks/>
+</member><member name="M:CFMASmartVB.TestServiceObicen.Service.PreglTarifiAsync(System.String,System.String)">
+	<remarks/>
+</member><member name="M:CFMASmartVB.TestServiceObicen.Service.PreglTarifiAsync(System.String,System.String,System.Object)">
+	<remarks/>
+</member><member name="M:CFMASmartVB.TestServiceObicen.Service.KarticaArtikal(System.String,System.String@,System.String,System.String,CFMASmartVB.TestServiceObicen.DaNe,CFMASmartVB.TestServiceObicen.DaNe,System.String,System.String,System.String,System.String,CFMASmartVB.TestServiceObicen.DaNe,CFMASmartVB.TestServiceObicen.RastiOpagja,System.String,System.String,CFMASmartVB.TestServiceObicen.DaNe,System.String,CFMASmartVB.TestServiceObicen.DaNe,System.String,CFMASmartVB.TestServiceObicen.DaNe,CFMASmartVB.TestServiceObicen.DaNe,CFMASmartVB.TestServiceObicen.DaNe,CFMASmartVB.TestServiceObicen.DaNe,System.String@)">
+	<remarks/>
+</member><member name="M:CFMASmartVB.TestServiceObicen.Service.KarticaArtikalAsync(System.String,System.String,System.String,System.String,CFMASmartVB.TestServiceObicen.DaNe,CFMASmartVB.TestServiceObicen.DaNe,System.String,System.String,System.String,System.String,CFMASmartVB.TestServiceObicen.DaNe,CFMASmartVB.TestServiceObicen.RastiOpagja,System.String,System.String,CFMASmartVB.TestServiceObicen.DaNe,System.String,CFMASmartVB.TestServiceObicen.DaNe,System.String,CFMASmartVB.TestServiceObicen.DaNe,CFMASmartVB.TestServiceObicen.DaNe,CFMASmartVB.TestServiceObicen.DaNe,CFMASmartVB.TestServiceObicen.DaNe,System.String)">
+	<remarks/>
+</member><member name="M:CFMASmartVB.TestServiceObicen.Service.KarticaArtikalAsync(System.String,System.String,System.String,System.String,CFMASmartVB.TestServiceObicen.DaNe,CFMASmartVB.TestServiceObicen.DaNe,System.String,System.String,System.String,System.String,CFMASmartVB.TestServiceObicen.DaNe,CFMASmartVB.TestServiceObicen.RastiOpagja,System.String,System.String,CFMASmartVB.TestServiceObicen.DaNe,System.String,CFMASmartVB.TestServiceObicen.DaNe,System.String,CFMASmartVB.TestServiceObicen.DaNe,CFMASmartVB.TestServiceObicen.DaNe,CFMASmartVB.TestServiceObicen.DaNe,CFMASmartVB.TestServiceObicen.DaNe,System.String,System.Object)">
+	<remarks/>
+</member><member name="M:CFMASmartVB.TestServiceObicen.Service.MesecIzvReal(System.String@,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,CFMASmartVB.TestServiceObicen.DaNe,CFMASmartVB.TestServiceObicen.DaNe,CFMASmartVB.TestServiceObicen.DaNe,System.String@)">
+	<remarks/>
+</member><member name="M:CFMASmartVB.TestServiceObicen.Service.MesecIzvRealAsync(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,CFMASmartVB.TestServiceObicen.DaNe,CFMASmartVB.TestServiceObicen.DaNe,CFMASmartVB.TestServiceObicen.DaNe,System.String)">
+	<remarks/>
+</member><member name="M:CFMASmartVB.TestServiceObicen.Service.MesecIzvRealAsync(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,CFMASmartVB.TestServiceObicen.DaNe,CFMASmartVB.TestServiceObicen.DaNe,CFMASmartVB.TestServiceObicen.DaNe,System.String,System.Object)">
+	<remarks/>
+</member><member name="M:CFMASmartVB.TestServiceObicen.Service.AnalNaracki(System.String@,System.String,System.String,System.String,System.String,System.String,System.String,System.String,CFMASmartVB.TestServiceObicen.VlezIzlez,System.String,System.String,CFMASmartVB.TestServiceObicen.KakovReport,CFMASmartVB.TestServiceObicen.DaNe,System.String,System.String,CFMASmartVB.TestServiceObicen.Sostojba,System.String,System.String,System.String,System.String,CFMASmartVB.TestServiceObicen.MaterUsl,CFMASmartVB.TestServiceObicen.KakovReport,System.String,System.String,CFMASmartVB.TestServiceObicen.DaNe,System.String,CFMASmartVB.TestServiceObicen.DaNe,CFMASmartVB.TestServiceObicen.Podreduvanje,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,CFMASmartVB.TestServiceObicen.DaNe,CFMASmartVB.TestServiceObicen.DaNe,System.String,CFMASmartVB.TestServiceObicen.Sostojba,System.String,System.String,CFMASmartVB.TestServiceObicen.DaNe,System.String,CFMASmartVB.TestServiceObicen.GrupirajPo,System.String@)">
+	<remarks/>
+</member><member name="M:CFMASmartVB.TestServiceObicen.Service.AnalNarackiAsync(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,CFMASmartVB.TestServiceObicen.VlezIzlez,System.String,System.String,CFMASmartVB.TestServiceObicen.KakovReport,CFMASmartVB.TestServiceObicen.DaNe,System.String,System.String,CFMASmartVB.TestServiceObicen.Sostojba,System.String,System.String,System.String,System.String,CFMASmartVB.TestServiceObicen.MaterUsl,CFMASmartVB.TestServiceObicen.KakovReport,System.String,System.String,CFMASmartVB.TestServiceObicen.DaNe,System.String,CFMASmartVB.TestServiceObicen.DaNe,CFMASmartVB.TestServiceObicen.Podreduvanje,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,CFMASmartVB.TestServiceObicen.DaNe,CFMASmartVB.TestServiceObicen.DaNe,System.String,CFMASmartVB.TestServiceObicen.Sostojba,System.String,System.String,CFMASmartVB.TestServiceObicen.DaNe,System.String,CFMASmartVB.TestServiceObicen.GrupirajPo,System.String)">
+	<remarks/>
+</member><member name="M:CFMASmartVB.TestServiceObicen.Service.AnalNarackiAsync(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,CFMASmartVB.TestServiceObicen.VlezIzlez,System.String,System.String,CFMASmartVB.TestServiceObicen.KakovReport,CFMASmartVB.TestServiceObicen.DaNe,System.String,System.String,CFMASmartVB.TestServiceObicen.Sostojba,System.String,System.String,System.String,System.String,CFMASmartVB.TestServiceObicen.MaterUsl,CFMASmartVB.TestServiceObicen.KakovReport,System.String,System.String,CFMASmartVB.TestServiceObicen.DaNe,System.String,CFMASmartVB.TestServiceObicen.DaNe,CFMASmartVB.TestServiceObicen.Podreduvanje,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,CFMASmartVB.TestServiceObicen.DaNe,CFMASmartVB.TestServiceObicen.DaNe,System.String,CFMASmartVB.TestServiceObicen.Sostojba,System.String,System.String,CFMASmartVB.TestServiceObicen.DaNe,System.String,CFMASmartVB.TestServiceObicen.GrupirajPo,System.String,System.Object)">
+	<remarks/>
+</member><member name="M:CFMASmartVB.TestServiceObicen.Service.KartIOS(System.String@,System.String,System.String,System.String,CFMASmartVB.TestServiceObicen.DaNe,CFMASmartVB.TestServiceObicen.KupuvacDobavuvac,System.String,System.String,System.String,System.String,CFMASmartVB.TestServiceObicen.DaNe,System.String,CFMASmartVB.TestServiceObicen.Podreduvanje,CFMASmartVB.TestServiceObicen.DaNe,System.String,System.String,CFMASmartVB.TestServiceObicen.DaNe,System.String,System.String,System.String,System.String,System.String,System.String,CFMASmartVB.TestServiceObicen.DaNe,CFMASmartVB.TestServiceObicen.GrupirajPo,CFMASmartVB.TestServiceObicen.DaNe,System.String,System.String@)">
+	<remarks/>
+</member><member name="M:CFMASmartVB.TestServiceObicen.Service.KartIOSAsync(System.String,System.String,System.String,System.String,CFMASmartVB.TestServiceObicen.DaNe,CFMASmartVB.TestServiceObicen.KupuvacDobavuvac,System.String,System.String,System.String,System.String,CFMASmartVB.TestServiceObicen.DaNe,System.String,CFMASmartVB.TestServiceObicen.Podreduvanje,CFMASmartVB.TestServiceObicen.DaNe,System.String,System.String,CFMASmartVB.TestServiceObicen.DaNe,System.String,System.String,System.String,System.String,System.String,System.String,CFMASmartVB.TestServiceObicen.DaNe,CFMASmartVB.TestServiceObicen.GrupirajPo,CFMASmartVB.TestServiceObicen.DaNe,System.String,System.String)">
+	<remarks/>
+</member><member name="M:CFMASmartVB.TestServiceObicen.Service.KartIOSAsync(System.String,System.String,System.String,System.String,CFMASmartVB.TestServiceObicen.DaNe,CFMASmartVB.TestServiceObicen.KupuvacDobavuvac,System.String,System.String,System.String,System.String,CFMASmartVB.TestServiceObicen.DaNe,System.String,CFMASmartVB.TestServiceObicen.Podreduvanje,CFMASmartVB.TestServiceObicen.DaNe,System.String,System.String,CFMASmartVB.TestServiceObicen.DaNe,System.String,System.String,System.String,System.String,System.String,System.String,CFMASmartVB.TestServiceObicen.DaNe,CFMASmartVB.TestServiceObicen.GrupirajPo,CFMASmartVB.TestServiceObicen.DaNe,System.String,System.String,System.Object)">
+	<remarks/>
+</member><member name="M:CFMASmartVB.TestServiceObicen.Service.CancelAsync(System.Object)">
+	<remarks/>
+</member><member name="T:CFMASmartVB.TestServiceObicen.Service">
+	<remarks/>
+</member><member name="F:CFMASmartVB.TestServiceObicen.DaNe.Da">
+	<remarks/>
+</member><member name="F:CFMASmartVB.TestServiceObicen.DaNe.Ne">
+	<remarks/>
+</member><member name="F:CFMASmartVB.TestServiceObicen.DaNe.Nisto">
+	<remarks/>
+</member><member name="T:CFMASmartVB.TestServiceObicen.DaNe">
+	<remarks/>
+</member><member name="F:CFMASmartVB.TestServiceObicen.RastiOpagja.Rastecki">
+	<remarks/>
+</member><member name="F:CFMASmartVB.TestServiceObicen.RastiOpagja.Opagjacki">
+	<remarks/>
+</member><member name="T:CFMASmartVB.TestServiceObicen.RastiOpagja">
+	<remarks/>
+</member><member name="F:CFMASmartVB.TestServiceObicen.VlezIzlez.Vlez">
+	<remarks/>
+</member><member name="F:CFMASmartVB.TestServiceObicen.VlezIzlez.Izlez">
+	<remarks/>
+</member><member name="F:CFMASmartVB.TestServiceObicen.VlezIzlez.Site">
+	<remarks/>
+</member><member name="F:CFMASmartVB.TestServiceObicen.VlezIzlez.Invest">
+	<remarks/>
+</member><member name="T:CFMASmartVB.TestServiceObicen.VlezIzlez">
+	<remarks/>
+</member><member name="F:CFMASmartVB.TestServiceObicen.KakovReport.Detalen">
+	<remarks/>
+</member><member name="F:CFMASmartVB.TestServiceObicen.KakovReport.PoDen">
+	<remarks/>
+</member><member name="F:CFMASmartVB.TestServiceObicen.KakovReport.PoMesec">
+	<remarks/>
+</member><member name="F:CFMASmartVB.TestServiceObicen.KakovReport.PoKomintent">
+	<remarks/>
+</member><member name="F:CFMASmartVB.TestServiceObicen.KakovReport.PoGrad">
+	<remarks/>
+</member><member name="F:CFMASmartVB.TestServiceObicen.KakovReport.PoRegion">
+	<remarks/>
+</member><member name="F:CFMASmartVB.TestServiceObicen.KakovReport.PoDenIPoKomintent">
+	<remarks/>
+</member><member name="F:CFMASmartVB.TestServiceObicen.KakovReport.PoArtikl">
+	<remarks/>
+</member><member name="F:CFMASmartVB.TestServiceObicen.KakovReport.Zbiren">
+	<remarks/>
+</member><member name="F:CFMASmartVB.TestServiceObicen.KakovReport.ZbirPoDatum">
+	<remarks/>
+</member><member name="F:CFMASmartVB.TestServiceObicen.KakovReport.ZbirPoNalozi">
+	<remarks/>
+</member><member name="F:CFMASmartVB.TestServiceObicen.KakovReport.Standarden">
+	<remarks/>
+</member><member name="F:CFMASmartVB.TestServiceObicen.KakovReport.Skraten">
+	<remarks/>
+</member><member name="F:CFMASmartVB.TestServiceObicen.KakovReport.DinamickiGrupiran">
+	<remarks/>
+</member><member name="F:CFMASmartVB.TestServiceObicen.KakovReport.Dinamicki">
+	<remarks/>
+</member><member name="F:CFMASmartVB.TestServiceObicen.KakovReport.PoDokument">
+	<remarks/>
+</member><member name="F:CFMASmartVB.TestServiceObicen.KakovReport.Kontrolen">
+	<remarks/>
+</member><member name="F:CFMASmartVB.TestServiceObicen.KakovReport.PoNalog">
+	<remarks/>
+</member><member name="F:CFMASmartVB.TestServiceObicen.KakovReport.Devizen">
+	<remarks/>
+</member><member name="F:CFMASmartVB.TestServiceObicen.KakovReport.PoFakturi">
+	<remarks/>
+</member><member name="F:CFMASmartVB.TestServiceObicen.KakovReport.PoUplati">
+	<remarks/>
+</member><member name="F:CFMASmartVB.TestServiceObicen.KakovReport.PoOrgEd">
+	<remarks/>
+</member><member name="F:CFMASmartVB.TestServiceObicen.KakovReport.PoArtArt">
+	<remarks/>
+</member><member name="F:CFMASmartVB.TestServiceObicen.KakovReport.PoPodelba1">
+	<remarks/>
+</member><member name="F:CFMASmartVB.TestServiceObicen.KakovReport.PoPodelba2">
+	<remarks/>
+</member><member name="F:CFMASmartVB.TestServiceObicen.KakovReport.PoPodelba3">
+	<remarks/>
+</member><member name="F:CFMASmartVB.TestServiceObicen.KakovReport.PoPodelba4">
+	<remarks/>
+</member><member name="F:CFMASmartVB.TestServiceObicen.KakovReport.PoPodelba5">
+	<remarks/>
+</member><member name="F:CFMASmartVB.TestServiceObicen.KakovReport.PoPodelba6">
+	<remarks/>
+</member><member name="F:CFMASmartVB.TestServiceObicen.KakovReport.PoPodelba7">
+	<remarks/>
+</member><member name="T:CFMASmartVB.TestServiceObicen.KakovReport">
+	<remarks/>
+</member><member name="F:CFMASmartVB.TestServiceObicen.Sostojba.Site">
+	<remarks/>
+</member><member name="F:CFMASmartVB.TestServiceObicen.Sostojba.Realizirani">
+	<remarks/>
+</member><member name="F:CFMASmartVB.TestServiceObicen.Sostojba.Nerealizirani">
+	<remarks/>
+</member><member name="F:CFMASmartVB.TestServiceObicen.Sostojba.Pozitivni">
+	<remarks/>
+</member><member name="F:CFMASmartVB.TestServiceObicen.Sostojba.Negativni">
+	<remarks/>
+</member><member name="F:CFMASmartVB.TestServiceObicen.Sostojba.RazlOdNula">
+	<remarks/>
+</member><member name="F:CFMASmartVB.TestServiceObicen.Sostojba.CelosnoNerealizirani">
+	<remarks/>
+</member><member name="F:CFMASmartVB.TestServiceObicen.Sostojba.Isporacani">
+	<remarks/>
+</member><member name="F:CFMASmartVB.TestServiceObicen.Sostojba.NeIsporacani">
+	<remarks/>
+</member><member name="T:CFMASmartVB.TestServiceObicen.Sostojba">
+	<remarks/>
+</member><member name="F:CFMASmartVB.TestServiceObicen.MaterUsl.Materijali">
+	<remarks/>
+</member><member name="F:CFMASmartVB.TestServiceObicen.MaterUsl.Uslugi">
+	<remarks/>
+</member><member name="F:CFMASmartVB.TestServiceObicen.MaterUsl.Site">
+	<remarks/>
+</member><member name="T:CFMASmartVB.TestServiceObicen.MaterUsl">
+	<remarks/>
+</member><member name="F:CFMASmartVB.TestServiceObicen.Podreduvanje.Nema">
+	<remarks/>
+</member><member name="F:CFMASmartVB.TestServiceObicen.Podreduvanje.PoSifra">
+	<remarks/>
+</member><member name="F:CFMASmartVB.TestServiceObicen.Podreduvanje.PoIme">
+	<remarks/>
+</member><member name="F:CFMASmartVB.TestServiceObicen.Podreduvanje.PoGrupa">
+	<remarks/>
+</member><member name="F:CFMASmartVB.TestServiceObicen.Podreduvanje.PoPodgr">
+	<remarks/>
+</member><member name="F:CFMASmartVB.TestServiceObicen.Podreduvanje.PoLokacija">
+	<remarks/>
+</member><member name="F:CFMASmartVB.TestServiceObicen.Podreduvanje.PoKomintent">
+	<remarks/>
+</member><member name="F:CFMASmartVB.TestServiceObicen.Podreduvanje.PoDatum">
+	<remarks/>
+</member><member name="F:CFMASmartVB.TestServiceObicen.Podreduvanje.PoGrad">
+	<remarks/>
+</member><member name="F:CFMASmartVB.TestServiceObicen.Podreduvanje.PoRegion">
+	<remarks/>
+</member><member name="F:CFMASmartVB.TestServiceObicen.Podreduvanje.PoKasa">
+	<remarks/>
+</member><member name="F:CFMASmartVB.TestServiceObicen.Podreduvanje.PoKonto">
+	<remarks/>
+</member><member name="F:CFMASmartVB.TestServiceObicen.Podreduvanje.PoDatNal">
+	<remarks/>
+</member><member name="F:CFMASmartVB.TestServiceObicen.Podreduvanje.PoDatDok">
+	<remarks/>
+</member><member name="F:CFMASmartVB.TestServiceObicen.Podreduvanje.PoPatnik">
+	<remarks/>
+</member><member name="F:CFMASmartVB.TestServiceObicen.Podreduvanje.PoPrevoznik">
+	<remarks/>
+</member><member name="F:CFMASmartVB.TestServiceObicen.Podreduvanje.PoSpremac">
+	<remarks/>
+</member><member name="F:CFMASmartVB.TestServiceObicen.Podreduvanje.PoBrFra">
+	<remarks/>
+</member><member name="F:CFMASmartVB.TestServiceObicen.Podreduvanje.PoBrFraGrp">
+	<remarks/>
+</member><member name="F:CFMASmartVB.TestServiceObicen.Podreduvanje.PoBroj">
+	<remarks/>
+</member><member name="T:CFMASmartVB.TestServiceObicen.Podreduvanje">
+	<remarks/>
+</member><member name="F:CFMASmartVB.TestServiceObicen.GrupirajPo.PoArtkl">
+	<remarks/>
+</member><member name="F:CFMASmartVB.TestServiceObicen.GrupirajPo.PoImeArtikl">
+	<remarks/>
+</member><member name="F:CFMASmartVB.TestServiceObicen.GrupirajPo.PoDokument">
+	<remarks/>
+</member><member name="F:CFMASmartVB.TestServiceObicen.GrupirajPo.PoDatum">
+	<remarks/>
+</member><member name="F:CFMASmartVB.TestServiceObicen.GrupirajPo.PoKonto">
+	<remarks/>
+</member><member name="F:CFMASmartVB.TestServiceObicen.GrupirajPo.PoTarifa">
+	<remarks/>
+</member><member name="F:CFMASmartVB.TestServiceObicen.GrupirajPo.PoKomint">
+	<remarks/>
+</member><member name="F:CFMASmartVB.TestServiceObicen.GrupirajPo.PoKasa">
+	<remarks/>
+</member><member name="F:CFMASmartVB.TestServiceObicen.GrupirajPo.PoBrand">
+	<remarks/>
+</member><member name="F:CFMASmartVB.TestServiceObicen.GrupirajPo.PoNisto">
+	<remarks/>
+</member><member name="F:CFMASmartVB.TestServiceObicen.GrupirajPo.PoGrupa">
+	<remarks/>
+</member><member name="F:CFMASmartVB.TestServiceObicen.GrupirajPo.PoPodgrupa">
+	<remarks/>
+</member><member name="F:CFMASmartVB.TestServiceObicen.GrupirajPo.PoLokacija">
+	<remarks/>
+</member><member name="F:CFMASmartVB.TestServiceObicen.GrupirajPo.PoDivizii">
+	<remarks/>
+</member><member name="F:CFMASmartVB.TestServiceObicen.GrupirajPo.PoZBrend">
+	<remarks/>
+</member><member name="F:CFMASmartVB.TestServiceObicen.GrupirajPo.PoKomintStavr">
+	<remarks/>
+</member><member name="F:CFMASmartVB.TestServiceObicen.GrupirajPo.PoCarinskiBroj">
+	<remarks/>
+</member><member name="F:CFMASmartVB.TestServiceObicen.GrupirajPo.PoGradovi">
+	<remarks/>
+</member><member name="T:CFMASmartVB.TestServiceObicen.GrupirajPo">
+	<remarks/>
+</member><member name="F:CFMASmartVB.TestServiceObicen.KupuvacDobavuvac.Kupuvac">
+	<remarks/>
+</member><member name="F:CFMASmartVB.TestServiceObicen.KupuvacDobavuvac.Dobavuvac">
+	<remarks/>
+</member><member name="F:CFMASmartVB.TestServiceObicen.KupuvacDobavuvac.IKupIDob">
+	<remarks/>
+</member><member name="T:CFMASmartVB.TestServiceObicen.KupuvacDobavuvac">
+	<remarks/>
+</member><member name="T:CFMASmartVB.TestServiceObicen.VerCompletedEventHandler">
+	<remarks/>
+</member><member name="P:CFMASmartVB.TestServiceObicen.VerCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:CFMASmartVB.TestServiceObicen.VerCompletedEventArgs">
+	<remarks/>
+</member><member name="T:CFMASmartVB.TestServiceObicen.GetPDFCompletedEventHandler">
+	<remarks/>
+</member><member name="P:CFMASmartVB.TestServiceObicen.GetPDFCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="P:CFMASmartVB.TestServiceObicen.GetPDFCompletedEventArgs.Poraka">
+	<remarks/>
+</member><member name="T:CFMASmartVB.TestServiceObicen.GetPDFCompletedEventArgs">
+	<remarks/>
+</member><member name="T:CFMASmartVB.TestServiceObicen.PreglTarifiCompletedEventHandler">
+	<remarks/>
+</member><member name="P:CFMASmartVB.TestServiceObicen.PreglTarifiCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="P:CFMASmartVB.TestServiceObicen.PreglTarifiCompletedEventArgs.PDFPath">
+	<remarks/>
+</member><member name="P:CFMASmartVB.TestServiceObicen.PreglTarifiCompletedEventArgs.Poraka">
+	<remarks/>
+</member><member name="T:CFMASmartVB.TestServiceObicen.PreglTarifiCompletedEventArgs">
+	<remarks/>
+</member><member name="T:CFMASmartVB.TestServiceObicen.KarticaArtikalCompletedEventHandler">
+	<remarks/>
+</member><member name="P:CFMASmartVB.TestServiceObicen.KarticaArtikalCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="P:CFMASmartVB.TestServiceObicen.KarticaArtikalCompletedEventArgs.PDFPath">
+	<remarks/>
+</member><member name="P:CFMASmartVB.TestServiceObicen.KarticaArtikalCompletedEventArgs.Poraka">
+	<remarks/>
+</member><member name="T:CFMASmartVB.TestServiceObicen.KarticaArtikalCompletedEventArgs">
+	<remarks/>
+</member><member name="T:CFMASmartVB.TestServiceObicen.MesecIzvRealCompletedEventHandler">
+	<remarks/>
+</member><member name="P:CFMASmartVB.TestServiceObicen.MesecIzvRealCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="P:CFMASmartVB.TestServiceObicen.MesecIzvRealCompletedEventArgs.PDFPath">
+	<remarks/>
+</member><member name="P:CFMASmartVB.TestServiceObicen.MesecIzvRealCompletedEventArgs.Poraka">
+	<remarks/>
+</member><member name="T:CFMASmartVB.TestServiceObicen.MesecIzvRealCompletedEventArgs">
+	<remarks/>
+</member><member name="T:CFMASmartVB.TestServiceObicen.AnalNarackiCompletedEventHandler">
+	<remarks/>
+</member><member name="P:CFMASmartVB.TestServiceObicen.AnalNarackiCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="P:CFMASmartVB.TestServiceObicen.AnalNarackiCompletedEventArgs.PDFPath">
+	<remarks/>
+</member><member name="P:CFMASmartVB.TestServiceObicen.AnalNarackiCompletedEventArgs.Poraka">
+	<remarks/>
+</member><member name="T:CFMASmartVB.TestServiceObicen.AnalNarackiCompletedEventArgs">
+	<remarks/>
+</member><member name="T:CFMASmartVB.TestServiceObicen.KartIOSCompletedEventHandler">
+	<remarks/>
+</member><member name="P:CFMASmartVB.TestServiceObicen.KartIOSCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="P:CFMASmartVB.TestServiceObicen.KartIOSCompletedEventArgs.PDFPath">
+	<remarks/>
+</member><member name="P:CFMASmartVB.TestServiceObicen.KartIOSCompletedEventArgs.Poraka">
+	<remarks/>
+</member><member name="T:CFMASmartVB.TestServiceObicen.KartIOSCompletedEventArgs">
+	<remarks/>
+</member><member name="F:CFMASmartVB.KontrolaObvivka.webStranaSodrizna">
+	<summary>
+ Vo imeto na slednite promelivi ima ....Sodrzina - se odnesuva na kakov e tipot na kontrolata
+ vo koja se dodavat drugite kontroli t.e moze da se zamilisi kako kutija vo koja se stavaat kontrolite
+ Toa moze da bide celata strana ili nekoj del od stranta koja ge gi "PRIMA" kontrolite.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:CFMASmartVB.My.Resources.GlavnaMaska_MK.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:CFMASmartVB.My.Resources.GlavnaMaska_MK.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:CFMASmartVB.My.Resources.GlavnaMaska_MK.lbl_datepic_den">
+	<summary>
+  Looks up a localized string similar to Ден (ДД).
+</summary>
+</member><member name="P:CFMASmartVB.My.Resources.GlavnaMaska_MK.lbl_datepic_godina">
+	<summary>
+  Looks up a localized string similar to Год (ГГГГ).
+</summary>
+</member><member name="P:CFMASmartVB.My.Resources.GlavnaMaska_MK.lbl_datepic_mesec">
+	<summary>
+  Looks up a localized string similar to Месец (ММ).
+</summary>
+</member><member name="P:CFMASmartVB.My.Resources.GlavnaMaska_MK.txt_kopce_potvrdi_glavno">
+	<summary>
+  Looks up a localized string similar to Потврди.
+</summary>
+</member><member name="T:CFMASmartVB.My.Resources.GlavnaMaska_MK">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="M:CFMASmartVB.Grupa.Raboti(System.String@)">
+	<summary>
+ Vo ovaa funkcija se generiraat site kontroli sto pripagaat vo edna grupa
+ </summary>
+	<param name="poraka">Ako ima greska vraka poraka</param>
+	<returns>Vraka dali uspesno e zavrsena funkcijata</returns>
+	<remarks></remarks>
+</member><member name="P:CFMASmartVB.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:CFMASmartVB.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:CFMASmartVB.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="F:CFMASmartVB.Login.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CFMASmartVB.Login.LblNaslovMaska">
+	<summary>
+LblNaslovMaska control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CFMASmartVB.Login.lblKorisnikLogin">
+	<summary>
+lblKorisnikLogin control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CFMASmartVB.Login.txtBoxKorisnik">
+	<summary>
+txtBoxKorisnik control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CFMASmartVB.Login.lblLozinkaLogin">
+	<summary>
+lblLozinkaLogin control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CFMASmartVB.Login.txtBoxLozinka">
+	<summary>
+txtBoxLozinka control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CFMASmartVB.Login.lblPorakaLogin">
+	<summary>
+lblPorakaLogin control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CFMASmartVB.Login.btnLoginPotvrdi">
+	<summary>
+btnLoginPotvrdi control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CFMASmartVB.AnalProfaktNarac.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CFMASmartVB.KartKupDob.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CFMASmartVB.Izvestaj.Head1">
+	<summary>
+Head1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CFMASmartVB.Izvestaj.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CFMASmartVB.Izvestaj.ddlOrgEd">
+	<summary>
+ddlOrgEd control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CFMASmartVB.Izvestaj.ddlGrpOrgEd">
+	<summary>
+ddlGrpOrgEd control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CFMASmartVB.Izvestaj.ImeArtIzbor">
+	<summary>
+ImeArtIzbor control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CFMASmartVB.Izvestaj.tboxSifraArt">
+	<summary>
+tboxSifraArt control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CFMASmartVB.Izvestaj.Test1">
+	<summary>
+Test1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CFMASmartVB.Izvestaj.Test2">
+	<summary>
+Test2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CFMASmartVB.Izvestaj.Test3">
+	<summary>
+Test3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CFMASmartVB.Izvestaj.Test4">
+	<summary>
+Test4 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CFMASmartVB.Izvestaj.Test5">
+	<summary>
+Test5 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CFMASmartVB.Izvestaj.btnPrikazi">
+	<summary>
+btnPrikazi control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CFMASmartVB.NasRadioButtonUC.RadioKopceDiv">
+	<summary>
+RadioKopceDiv control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CFMASmartVB.NasRadioButtonUC.RadioKopce">
+	<summary>
+RadioKopce control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CFMASmartVB.NasRadioButtonUC.lblRadioKopce">
+	<summary>
+lblRadioKopce control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CFMASmartVB.NasRadioButtonUC.HiddenField1">
+	<summary>
+HiddenField1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CFMASmartVB.Meni.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CFMASmartVB.Test.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CFMASmartVB.KatArt.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="M:CFMASmartVB.Masina.ProcitajOdBaza(System.String@)">
+	<summary>
+ So ovaa funkcija se vcituvaat redovite(opisite za kontrolata) od Baza. 
+ Za da se povika ovaa funkcija mora prvo da se vcita XML-ot, bidejki preku nego
+ se zemaat SorsID.
+ </summary>
+	<param name="poraka">Poraka ako ima greska</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:CFMASmartVB.My.Resources.GlavnaMaska_KS.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:CFMASmartVB.My.Resources.GlavnaMaska_KS.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:CFMASmartVB.My.Resources.GlavnaMaska_KS.lbl_datepic_den">
+	<summary>
+  Looks up a localized string similar to Ditë (DD).
+</summary>
+</member><member name="P:CFMASmartVB.My.Resources.GlavnaMaska_KS.lbl_datepic_godina">
+	<summary>
+  Looks up a localized string similar to Vit (YYYY).
+</summary>
+</member><member name="P:CFMASmartVB.My.Resources.GlavnaMaska_KS.lbl_datepic_mesec">
+	<summary>
+  Looks up a localized string similar to Muaj (MM).
+</summary>
+</member><member name="P:CFMASmartVB.My.Resources.GlavnaMaska_KS.txt_kopce_potvrdi_glavno">
+	<summary>
+  Looks up a localized string similar to Confirmo.
+</summary>
+</member><member name="T:CFMASmartVB.My.Resources.GlavnaMaska_KS">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="F:CFMASmartVB.DatumIzbor.LabelDen">
+	<summary>
+LabelDen control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CFMASmartVB.DatumIzbor.LabelMesec">
+	<summary>
+LabelMesec control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CFMASmartVB.DatumIzbor.LabelGodina">
+	<summary>
+LabelGodina control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CFMASmartVB.DatumIzbor.Den">
+	<summary>
+Den control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CFMASmartVB.DatumIzbor.Mesec">
+	<summary>
+Mesec control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CFMASmartVB.DatumIzbor.Godina">
+	<summary>
+Godina control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CFMASmartVB.NasCheckBoxUC.CheckBoxKopceDiv">
+	<summary>
+CheckBoxKopceDiv control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CFMASmartVB.NasCheckBoxUC.CheckBox">
+	<summary>
+CheckBox control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CFMASmartVB.NasCheckBoxUC.lblChckBox">
+	<summary>
+lblChckBox control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CFMASmartVB.NasCheckBoxUC.HiddenField1">
+	<summary>
+HiddenField1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="T:CFMASmartVB.NasiKlasi">
+	<summary>
+ Vo ovoj interface definirame funkcii koi mora da gi sodrzi sekoja klasa
+ </summary>
+	<remarks></remarks>
+</member><member name="F:CFMASmartVB.MesecIzvReal.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="P:CFMASmartVB.My.MyWebExtension.Application">
+	<summary>
+ Returns information about the current application.
+ </summary>
+</member><member name="P:CFMASmartVB.My.MyWebExtension.Computer">
+	<summary>
+ Returns information about the host computer.
+ </summary>
+</member><member name="P:CFMASmartVB.My.MyWebExtension.User">
+	<summary>
+ Returns information for the current Web user.
+ </summary>
+</member><member name="P:CFMASmartVB.My.MyWebExtension.Request">
+	<summary>
+ Returns Request object.
+ </summary>
+</member><member name="P:CFMASmartVB.My.MyWebExtension.Response">
+	<summary>
+ Returns Response object.
+ </summary>
+</member><member name="P:CFMASmartVB.My.MyWebExtension.Log">
+	<summary>
+ Returns the Asp log object.
+ </summary>
+</member><member name="P:CFMASmartVB.My.MyWebExtension.WebServices">
+	<summary>
+ Provides access to WebServices added to this project.
+ </summary>
+</member><member name="T:CFMASmartVB.My.MyWebExtension">
+	<summary>
+ Module used to define the properties that are available in the My Namespace for Web projects.
+ </summary>
+	<remarks></remarks>
+</member><member name="F:CFMASmartVB.DnevenIzvestajKasa.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+</members>
+</doc>

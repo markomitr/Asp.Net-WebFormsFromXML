@@ -1,0 +1,26 @@
+<Kontroli>
+<Maska Naslov="Mese~en izve{taj za realizacija"/>
+
+
+<Kontrola SorsID="DatumOd" Param1="" TipKontrola="Datum" RedBr="1" Grupa="1" NaslovGrupa="Datumi" Ime="DatumOd" Opis="" Prikazi="D"  Font="" FontSize="" Visina="" Sirina="" Boja="" />
+
+<Kontrola SorsID="DatumDo" Param1="" TipKontrola="Datum" RedBr="1" Grupa="1" NaslovGrupa="" Ime="DatumDo" Opis="" Prikazi="D"  Font="" FontSize="" Visina="" Sirina="" Boja="" />
+
+<Kontrola SorsID="SiteDat" Param1="" TipKontrola="CHECKBOX" RedBr="1" Grupa="1" NaslovGrupa=""  Ime="Site Datumi" Opis="" Prikazi="D"  Font="" FontSize="" Visina="" Sirina="" Boja="" />
+
+<Kontrola SorsID="Kurs" Param1="" TipKontrola="TekstPole" RedBr="1" Grupa="1" NaslovGrupa="" Ime="Kurs" Opis="" Prikazi="D"  Font="" FontSize="" Visina="" Sirina="" Boja="" />
+
+<Kontrola SorsID="GrPat" Param1="" TipKontrola="Lista"  RedBr="1" Grupa="1" NaslovGrupa="" Ime="Grupa na patnici" Opis="" Prikazi="D" MozePrazno="N" PrikazVrednost="D" Font="" FontSize="" Visina="" Sirina="" Boja="" />
+
+<Kontrola SorsID="SoStavki" Param1="" TipKontrola="CHECKBOX" RedBr="1" Grupa="1" NaslovGrupa=""  Ime="So stavki" Opis="" Prikazi="D"  Font="" FontSize="" Visina="" Sirina="" Boja="" />
+
+<Kontrola SorsID="GrpPoPatnici" Param1="" TipKontrola="RADIOBUTTON" RedBr="1" Grupa="3" NaslovGrupa="Grupiraj po" Ime="Patnici" Opis="" Prikazi="D"  Font="" FontSize="" Visina="" Sirina="" Boja="" />
+<Kontrola SorsID="OptPoPodgrProiz" Param1="" TipKontrola="RADIOBUTTON" RedBr="2" Grupa="3" NaslovGrupa="" Ime="Podg. na proizvodi" Opis="" Prikazi="D"  Font="" FontSize="" Visina="" Sirina="" Boja="" />
+<Kontrola SorsID="OptPoArtikal" Param1="" TipKontrola="RADIOBUTTON" RedBr="3" Grupa="3" NaslovGrupa="" Ime="Artikal" Opis="" Prikazi="D"  Font="" FontSize="" Visina="" Sirina="" Boja="" />
+<Kontrola SorsID="OptPoKomint" Param1="" TipKontrola="RADIOBUTTON" RedBr="4" Grupa="3" NaslovGrupa="" Ime="Komintent" Opis="" Prikazi="D"  Font="" FontSize="" Visina="" Sirina="" Boja="" />
+
+<Kontrola SorsID="OptZaedno" Param1="" TipKontrola="RADIOBUTTON" RedBr="1" Grupa="4" NaslovGrupa="Proda`ba" Ime="Zaedno" Opis="" Prikazi="D"  Font="" FontSize="" Visina="" Sirina="" Boja="" />
+<Kontrola SorsID="OptIzvoz" Param1="" TipKontrola="RADIOBUTTON" RedBr="2" Grupa="4" NaslovGrupa="" Ime="Izvoz" Opis="" Prikazi="D"  Font="" FontSize="" Visina="" Sirina="" Boja="" />
+<Kontrola SorsID="OptDomProd" Param1="" TipKontrola="RADIOBUTTON" RedBr="3" Grupa="4" NaslovGrupa="" Ime="Doma{na proda`ba" Opis="" Prikazi="D"  Font="" FontSize="" Visina="" Sirina="" Boja="" />
+
+</Kontroli>

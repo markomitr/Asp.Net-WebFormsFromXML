@@ -1,0 +1,16 @@
+﻿<Kontroli>
+
+<Maska Naslov="Kartica na Artikal"/>
+
+<Kontrola SorsID="OrgEd" Param1="" TipKontrola="Lista"  RedBr="1" Grupa="1" NaslovGrupa="" Ime="Organizaciona Edinica" Opis="" Prikazi="D" MozePrazno="D" PrikazVrednost="D" Font="" FontSize="" Visina="" Sirina="" Boja="" />
+<Kontrola SorsID="Sifra_Art" Param1="" TipKontrola="ZivoTekstPole" RedBr="2" Grupa="1" NaslovGrupa="" Ime="Artikal" Opis="Vnesete poveke od tri(3) karakteri!" Prikazi="D"  Font="" FontSize="" Visina="" Sirina="" Boja="" />
+
+<Kontrola SorsID="DatumOd" Param1="" TipKontrola="Datum" RedBr="3" Grupa="1" NaslovGrupa="Datumi" Ime="DatumOd" Opis="" Prikazi="D"  Font="" FontSize="" Visina="" Sirina="" Boja="" />
+
+<Kontrola SorsID="DatumDo" Param1="" TipKontrola="Datum" RedBr="6" Grupa="1" NaslovGrupa="" Ime="DatumDo" Opis="" Prikazi="D"  Font="" FontSize="" Visina="" Sirina="" Boja="" />
+<Kontrola SorsID="SiteDat" Param1="" TipKontrola="CHECKBOX" RedBr="7" Grupa="1" NaslovGrupa=""  Ime="Site Datumi" Opis="" Prikazi="D"  Font="" FontSize="" Visina="" Sirina="" Boja="" />
+ <Kontrola SorsID="SoDDV" Param1="" TipKontrola="RADIOBUTTON" RedBr="1" Grupa="2" NaslovGrupa="Ceni" Ime="So danok" Opis="" Prikazi="D"  Font="" FontSize="" Visina="" Sirina="" Boja="" />>
+
+
+
+</Kontroli>

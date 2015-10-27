@@ -1,0 +1,25 @@
+<Kontroli>
+<Maska Naslov="Specifikacija na kupuva~i i dobavuva~i"/>
+
+  <Kontrola SorsID="Sifra_Kup" Param1="" TipKontrola="ZivoTekstPole" RedBr="1" Grupa="1" NaslovGrupa="Kupuva~/Dobavuva~" Ime="Kupuva~/Dobavuva~" Opis="" Prikazi="D"  Font="" FontSize="" Visina="" Sirina="" Boja="" />
+
+  <Kontrola SorsID="Kto_Anal" Param1="" TipKontrola="ZivoTekstPole" RedBr="1" Grupa="2" NaslovGrupa="Filtri" Ime="Konto" Opis="" Prikazi="D"  Font="" FontSize="" Visina="" Sirina="" Boja="" />
+
+  <Kontrola SorsID="OrgEd" Param1="" TipKontrola="Lista"  RedBr="1" Grupa="2" NaslovGrupa="" Ime="Organizaciona Edinica" Opis="" Prikazi="D" MozePrazno="D" PrikazVrednost="D" Font="" FontSize="" Visina="" Sirina="" Boja="" />
+
+  <Kontrola SorsID="GrOrg" Param1="" TipKontrola="Lista"  RedBr="1" Grupa="2" NaslovGrupa="" Ime="Grupi Org.Ed." Opis="" Prikazi="D" MozePrazno="D" PrikazVrednost="D" Font="" FontSize="" Visina="" Sirina="" Boja="" />
+
+  <Kontrola SorsID="DatumOd" Param1="" TipKontrola="Datum" RedBr="1" Grupa="3" NaslovGrupa="Datumi" Ime="DatumOd" Opis="" Prikazi="D"  Font="" FontSize="" Visina="" Sirina="" Boja="" />
+
+<Kontrola SorsID="DatumDo" Param1="" TipKontrola="Datum" RedBr="1" Grupa="3" NaslovGrupa="" Ime="DatumDo" Opis="" Prikazi="D"  Font="" FontSize="" Visina="" Sirina="" Boja="" />
+
+<Kontrola SorsID="SiteDat" Param1="" TipKontrola="CHECKBOX" RedBr="1" Grupa="3" NaslovGrupa=""  Ime="Site Datumi" Opis="" Prikazi="D"  Font="" FontSize="" Visina="" Sirina="" Boja="" />
+
+
+  <Kontrola SorsID="GrPat" Param1="" TipKontrola="Lista"  RedBr="1" Grupa="4" NaslovGrupa="Grupa na komerc." Ime="Komercijalisti" Opis="" Prikazi="D" MozePrazno="D" PrikazVrednost="D" Font="" FontSize="" Visina="" Sirina="" Boja="" />
+
+<Kontrola SorsID="OptKup" Param1="" TipKontrola="RADIOBUTTON" RedBr="1" Grupa="5" NaslovGrupa="Prika`i kako" Ime="Kupuva~" Opis="" Prikazi="D"  Font="" FontSize="" Visina="" Sirina="" Boja="" />
+<Kontrola SorsID="OptDob" Param1="" TipKontrola="RADIOBUTTON" RedBr="2" Grupa="5" NaslovGrupa="" Ime="Dobavuva~" Opis="" Prikazi="D"  Font="" FontSize="" Visina="" Sirina="" Boja="" />
+<Kontrola SorsID="OptKupDob" Param1="" TipKontrola="RADIOBUTTON" RedBr="3" Grupa="5" NaslovGrupa="" Ime="Kupuva~ i dobavuva~" Opis="" Prikazi="D"  Font="" FontSize="" Visina="" Sirina="" Boja="" />
+
+</Kontroli>
